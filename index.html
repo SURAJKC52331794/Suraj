@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="insert.php" method="POST">
+        <h1>Registration Form</h1>
+        
+        <!-- Student Name -->
+        <label for="student_name">Student Name:</label>
+        <input type="text" id="student_name" name="student_name" placeholder="Enter Student Name..." required>
+        <br>
+
+        <!-- Register Number -->
+        <label for="register_number">Register Number:</label>
+        <input type="text" id="register_number" name="register_number" placeholder="Enter Register Number..." required>
+        <br>
+
+        <!-- Gender -->
+        <p>Gender:</p>
+        <input type="radio" name="gender" id="male" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="Other">
+        <label for="other">Other</label>
+        <br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+
+        <!-- State -->
+        <label for="state">State:</label>
+        <select name="state" id="state" required>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Goa">Goa</option>
+        </select>
+        <br>
+
+        <!-- Course -->
+        <p>Course:</p>
+        <input type="radio" name="course" id="bca" value="BCA" required>
+        <label for="bca">BCA</label>
+        <input type="radio" name="course" id="bcom" value="BCOM">
+        <label for="bcom">BCOM</label>
+        <input type="radio" name="course" id="mca" value="MCA">
+        <label for="mca">MCA</label>
+        <br>
+
+        <!-- Submit and Reset -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body
+      {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-image:url('gallery_b7103ca278a75cad8f7d065acda0c2e80da0b7dc54.jpg') ;
+    background-repeat: no-repeat;
+      }
+
+
+::placeholder
+      {
+    color: #c4d1d1;
+      }
+form
+     {
+    background-color: rgb(121, 138, 138);
+    padding: 20px;
+    box-shadow: 18px 16px 20px  rgb(0, 0, 0);
+    border-radius: 8px;
+    opacity: 80%;
+     }
+
+input,button
+     {
+    margin: 0px 10px;
+    box-shadow: 0.2px .8px  rgb(255, 255, 255);
+     }
+
+  img 
+     {
+    justify-content: center;
+    align-items: center;
+     padding: 8px 4px;
+     }
+
+   input
+      {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(37, 52, 52, 0.2);
+    border-radius: 40px;
+      }
+ .gender
+    {
+  padding: 2px 5px;
+  width: 20%;
+  height: 20%;
+    }
+
+
+ input[type="radio"]
+   {
+  transform: scale(.8);
+  width: 13%;
+   }
+
+button
+   {
+    padding: 8px 12px;
+    background-color:rgb(27, 39, 59) ;
+    border: none;
+    color: #518780;
+    border-radius: 4px;
+   }
